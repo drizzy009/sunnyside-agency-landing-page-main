@@ -32,11 +32,11 @@
   </head>
 
 <body>
-  <div class="text-center flex flex-col justify-between h-screen text-lg font-barlow">
+  <div class="flex flex-col text-center justify-between h-screen text-lg font-barlow">
     <header
-      class="text-white bg-header-mobile lg:bg-header-desktop bg-cover bg-no-repeat bg-bottom lg:bg-center p-8 pb-20">
+      class="text-white bg-header-mobile lg:bg-header-desktop bg-cover bg-no-repeat lg:bg-center bg-bottom p-8 pb-20">
       <div class="overflow-hidden">
-        <nav class="flex justify-between mb-12 relative ">
+        <nav class="flex justify-between mb-12 relative">
           <div class="lg:p-12 cursor-pointer"><img src="./images/logo.svg" alt="logo" /></div>
           <div class="hidden lg:flex">
             <div class="p-12">
@@ -63,20 +63,20 @@
             <img class="cursor-pointer" src="./images/icon-hamburger.svg" alt="" />
           </div>
         </nav>
-        <h1 class="font-fraunces py-14 mb-12 text-5xl lg:text-7xl lg:tracking-widest uppercase tracking-wider">We are
+        <h1 class="py-14 mb-12 text-5xl lg:text-7xl font-fraunces lg:tracking-widest uppercase tracking-wider">We are
           creatives</h1>
-        <div class="mb-24 lg:mb-60"><img class="arrowdown" src="./images/icon-arrow-down.svg" alt="arrow"></div>
+        <div class="lg:mb-60 mb-24"><img class="arrowdown" src="./images/icon-arrow-down.svg" alt="arrow"></div>
       </div>
     </header>
 
     <section>
-      <article class="mb-12 lg:mb-0 lg:grid lg:grid-cols-2">
+      <article class="lg:grid lg:grid-cols-2 mb-12 lg:mb-0">
         <div class="lg:order-2">
-          <img src=" ./images/mobile/image-transform.jpg" alt="egg" class="w-full h-auto object-cover lg:hidden">
-          <img src=" ./images/desktop/image-transform.jpg" alt="egg" class="object-cover w-auto w-full hidden lg:block">
+          <img src=" ./images/mobile/image-transform.jpg" alt="" class="w-full h-auto object-cover lg:hidden">
+          <img src=" ./images/desktop/image-transform.jpg" alt="" class="object-cover w-auto w-full hidden lg:block">
         </div>
         <div
-          class="showcase p-8 text-brand-very-dark-blue lg:order-1 lg:text-left lg:mx-12 lg:flex lg:flex-col lg:justify-center">
+          class="p-8 text-brand-very-dark-blue lg:order-1 lg:text-left lg:mx-12 lg:flex lg:flex-col lg:justify-center">
           <h2 class="font-fraunces text-4xl p-12 ">Transform your brand</h2>
           <p class="text-brand-cyan text-xl lg:px-12 lg:pb-8">
             We are a full-service creative agency specializing in helping brands
@@ -96,7 +96,7 @@
           <img src="./images/mobile/image-stand-out.jpg" alt="" class="w-full h-auto object-cover lg:hidden">
           <img src="./images/desktop/image-stand-out.jpg" alt="" class="object-cover w-auto w-full hidden lg:block">
         </div>
-        <div class="showcase p-8 text-brand-very-dark-blue lg:text-left lg:mx-12 lg:flex lg:flex-col lg:justify-center">
+        <div class="p-8 text-brand-very-dark-blue lg:text-left lg:mx-12 lg:flex lg:flex-col lg:justify-center">
           <h2 class="font-fraunces text-4xl p-12 ">Stand out to the right audience</h2>
           <p class="text-brand-cyan text-xl lg:px-12 lg:pb-8">
             Using a collaborative formula of designers, researchers,
@@ -112,13 +112,13 @@
       </article>
 
       <div class="lg:flex">
-        <article class="relative lg:w-2/4">
+        <article class="lg:w-2/4 relative">
           <div>
             <img src="./images/mobile/image-graphic-design.jpg" alt="" class="w-full h-auto object-cover lg:hidden">
             <img src="./images/desktop/image-graphic-design.jpg" alt=""
               class="w-full h-auto object-cover hidden lg:block">
           </div>
-          <div class="showcase p-8 text-brand-very-dark-blue absolute bottom-0 left-0">
+          <div class="p-8 text-brand-very-dark-blue absolute bottom-0 left-0">
             <h2 class="font-fraunces text-4xl p-12 ">Graphic design</h2>
             <p class="mb-12 text-xl">
               Great design makes you memorable. We deliver artwork that
@@ -133,7 +133,7 @@
             <img src="./images/desktop/image-photography.jpg" alt=""
               class="w-full h-auto object-cover hidden lg:block">
           </div>
-          <div class="showcase p-8 text-brand-very-dark-blue absolute bottom-0 left-0">
+          <div class="p-8 text-brand-very-dark-blue absolute bottom-0 left-0">
             <h2 class="font-fraunces text-4xl p-12 ">Photography</h2>
             <p class="mb-12 text-xl">
               Increase your credibility by getting the most stunning, high-quality
